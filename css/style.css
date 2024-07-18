@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    /* 查看目前的排版 */
+    /* outline: solid 1px; */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: "Bruno Ace SC", "Microsoft JhengHei", serif;    
+    line-height: 1.5;
+    font-size: 24px;
+}
+
+/* layout */
+.header {
+    background: #000;
+    color: #D1D1D1;
+    padding: 40px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+}
+
+/* component */
+.btn {
+    padding: 12px 24px;
+    border-radius: 32px;
+}
+
+.btn-light {
+    background: #fff;
+    color: #000;
+}
+
+.btn-dark {
+    background: #000;
+    color: #fff;
+}
+
+/* page */
+.banner {
+    background: #000;
+    color: #fff;
+}
+
+.banner-title-strong {
+    display: block;
+    text-align: right;
+}
+
+.intro {
+    background-image: url("../img/background-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 160px 0;
+}
+
+.intro-desc {
+    width: 526px;
+}
+
+.about {
+    padding: 160px 0;
+}
+
+.about-list {
+    width: 636px;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 24px;
+}
+
+.about-list li {
+    width: calc(50% - 12px);
+    border: 1px solid #E3E3E3;
+    /* box-shadow: 4px 4px 0 #00000014; */
+    box-shadow: 4px 4px 0px rgb(0,0,0,0.08);
+}
+
+.about-desc {
+    width: 526px;
+}
+
+.contact {
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+    padding: 96px 0;
+}
+
+.contact-title {
+    color: #fff;
+    gap: 16px;
+    /* margin-right: 113px; */
+}
+
+.social-link {
+    border-radius: 40px;
+    transition: 1s;
+}
+
+.social-link:hover {
+    box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+}
+
+.project {
+    padding: 160px 0;
+}
+
+.project-title {
+    width: 746px;
+    margin-left: auto;
+}
+
+.project-left {
+    gap: 24px;
+}
+
+.project-right {
+    gap: 28px;
+}
+
+.footer {
+    background: #000;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* utils */
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.h1 {
+    font-size: 128px;
+}
+
+.h2 {
+    font-size: 64px;
+}
+
+.fs-1 {
+    font-size: 32px;
+}
+
+.fs-2 {
+    font-size: 24px;
+}
+
+.fs-3 {
+    font-size: 20px;
+}
+
+.text-primary {
+    color: #00ffa3;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {    
+    /* fxdc */
+    flex-direction: column;
+}
+
+.jc-between {
+    /* jcsb */
+    justify-content: space-between;
+}
+
+.jc-end {
+    justify-content: flex-end;
+}
+
+.ai-start {
+    /* aifs */
+    align-items: flex-start;
+}
+
+.ai-center {
+    /* aic */
+    align-items: center;
+}
+
+.mr-5 {
+    margin-right: 20px;
+}
+
+.mr-6 {
+    margin-right: 24px;
+}
+
+.mb-6 {
+    margin-bottom: 24px;
+}
+
+.mb-7 {
+    margin-bottom: 28px;
+}
+
